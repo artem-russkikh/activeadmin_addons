@@ -8,6 +8,7 @@
 //= require ./inputs/nested-select
 //= require ./inputs/tags
 //= require ./inputs/selected-list
+//= require ./inputs/selected-sortable-list
 //= require ./inputs/date-time-picker
 //= require ./inputs/color-picker
 //= require ./addons/toggle_bool

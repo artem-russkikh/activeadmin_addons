@@ -1,0 +1,25 @@
+$selected-sortable-list-btn-color: #aaa;
+$selected-sortable-list-btn-hover-color: #333;
+
+.selected-sortable-list-container {
+  display: inline-block;
+  width: 80%;
+
+  .selected-sortable-item {
+    height: 25px;
+  }
+}
+
+.selected-sortable-item {
+  display: table;
+  cursor: pointer;
+
+  .remove {
+    display: inline;
+    margin-right: 5px;
+    color: $selected-sortable-list-btn-color;
+    &:hover {
+      color: $selected-sortable-list-btn-hover-color;
+    }
+  }
+}
